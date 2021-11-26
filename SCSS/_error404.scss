@@ -1,0 +1,19 @@
+.contenido__error{
+    display: block;
+    padding: 50px;
+        .error__h1{
+            @extend .h1;
+            color: red;
+            padding-bottom: 16px;
+        }
+        .error__p{
+            font-size: 3rem;
+            color: #40290d;
+            padding-bottom: 16px;
+        }
+        .error__link{
+            text-decoration: underline;
+            color: #40290d;
+            font-size: 2rem;
+        }
+}
